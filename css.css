@@ -1,0 +1,16 @@
+body, .modal{
+   background: linear-gradient(90deg, rgb(2, 100, 107), rgb(71, 56, 56), rgb(230, 4, 4));
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
